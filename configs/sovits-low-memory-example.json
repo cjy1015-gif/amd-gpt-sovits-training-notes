@@ -1,0 +1,19 @@
+{
+  "epochs": 5,
+  "batch_size": 1,
+  "precision": "fp32",
+  "learning_rate": 0.0001,
+  "num_workers": 0,
+  "pin_memory": false,
+  "prefetch": false,
+  "persistent_workers": false,
+  "single_device": true,
+  "distributed_data_parallel": false,
+  "tensorboard": false,
+  "training_images": false,
+  "save_every_n_steps": 200,
+  "atomic_resume_checkpoint": true,
+  "safe_signal_stop": true,
+  "private_data_path": "<local-authorized-data-path>",
+  "private_output_path": "<local-private-output-path>"
+}
