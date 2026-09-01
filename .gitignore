@@ -1,0 +1,24 @@
+# Private training material and model artifacts
+data/audio/
+data/transcripts/
+data/features/
+training_outputs/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.wav
+*.ogg
+*.mp3
+*.flac
+*.safetensors
+*.jsonl
+
+# Local environments and logs
+.venv/
+venv/
+__pycache__/
+*.log
+*.tmp
+.env
+.DS_Store
