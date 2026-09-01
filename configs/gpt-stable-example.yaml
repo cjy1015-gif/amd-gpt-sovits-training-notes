@@ -1,0 +1,18 @@
+# Public template only. Replace placeholders locally.
+# No dataset paths, speaker names, or model weights are included.
+
+precision: 32-true
+batch_size: 1
+gradient_accumulation_steps: 1
+optimizer: AdamW
+fixed_learning_rate: 0.000001
+gradient_clip_value: 1.0
+gradient_clip_norm_type: inf
+loss_reduction: mean
+force_math_sdpa: true
+force_single_device: true
+float32_matmul_precision: highest
+dropout: 0
+num_workers: 1
+detect_nonfinite_gradients: true
+skip_nonfinite_batches: true
